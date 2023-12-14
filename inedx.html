@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/18ec148171.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="card">
+<input class="result" type="text" name="result"></input>
+<div class="buttons">
+    <input type="button" value="AC" class="op" onclick="AC()">
+    <input type="button" value="DE" class="op" onclick="DE()">
+    <input type="button" value="."class="op" onclick="updateResult('.')">
+    <input type="button" value="/" class="op" onclick="updateResult('/')">
+    
+    <input type="button" value="7" onclick="updateResult('7')">
+    <input type="button" value="8" onclick="updateResult('8')">
+    <input type="button" value="9" onclick="updateResult('9')">
+    <input type="button" value="*" onclick="updateResult('*')">
+    
+    <input type="button" value="4" onclick="updateResult('4')">
+    <input type="button" value="5" onclick="updateResult('5')">
+    <input type="button" value="6" onclick="updateResult('6')">
+    <input type="button" value="-" onclick="updateResult('-')">
+    
+    <input type="button" value="1" onclick="updateResult('1')">
+    <input type="button" value="2" onclick="updateResult('2')">
+    <input type="button" value="3" onclick="updateResult('3')">
+    <input type="button" value="+" onclick="updateResult('+')">
+    
+    <input type="button" value="00" onclick="updateResult('00')">
+    <input type="button" value="0" onclick="updateResult('0') ">
+    <input type="button" value="=" class="eq" onclick="calc()">
+</div>
+
+
+    </div>
+    <script src="/code.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    border: 0;
+    outline: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #e3f9ff;
+}
+.card{
+    margin: 100px auto;
+    width: fit-content;
+    background-color: rgb(108, 108, 108);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    padding: 30px;
+    
+}
+
+.buttons
+ {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 30px 40px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . . ."
+      ". . . ."
+      ". . . .";
+  }
+  input[type=button] {
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+    color: green;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1),5px 5px 15px rgba(0,0,0,0.2);
+    background-color: transparent;
+    color: white;
+}
+.card .result{
+    color: white;
+    font-size: 50px;
+    width: 300px ;
+    text-align: right;
+    margin-bottom: 20px;
+    height: 70px;
+    border: 0;
+    box-shadow: 0;
+    background-color: transparent;
+    cursor:default;
+}
+.eq{
+    width: 150px !important;
+    grid-column: span 2;
+}
+.op{
+    color: #33ffd8 !important;
+}
